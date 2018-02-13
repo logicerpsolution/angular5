@@ -1,0 +1,43 @@
+
+<div class="container">
+  <div class="row" >
+
+            <div class="form-center">
+              <form  #companyForm="ngForm"  (ngSubmit)="onSubmit()">
+                    <div layout="row" >
+                       
+                            <h2>Add New </h2>
+                            <div layout="row" flex=100>
+                                <div layout="column" flex="50">
+                                    <h4 class=""> First Name </h4>
+                                    <input type="text" class="form-control" name="firstname" [(ngModel)]="firstname"    required>
+                                </div>
+
+                                <div layout="column" flex="50">
+                                    <h4 class=""> Last Name </h4>
+                                    <input type="text" class="form-control" name="lastname"  [(ngModel)]="lastname"required>
+                                </div>
+                            </div>
+                          
+                        
+                        
+
+                      
+                        
+
+
+                            <br/><br/>
+                            <button color="accent"  type="submit">Add Detail !</button>
+                            
+
+
+
+                    </div>
+
+                
+
+                </form>
+            </div>
+        </div>
+
+</div>
